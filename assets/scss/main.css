@@ -1,0 +1,348 @@
+body {
+  overflow-x: hidden;
+}
+
+.leftsec {
+  position: fixed;
+  background-color: #333;
+  height: 1000px;
+  z-index: 1000;
+  left: 0;
+}
+
+.logoimg {
+  height: 60px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.logoimg img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.submenu1, .submenu2, .submenu3 {
+  display: none;
+  background-color: #123812;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submenu1 ul, .submenu2 ul, .submenu3 ul {
+  margin: 0px;
+}
+.submenu1 li, .submenu2 li, .submenu3 li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submenu1 a, .submenu2 a, .submenu3 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px !important;
+}
+.submenu1 i, .submenu2 i, .submenu3 i {
+  margin-right: 10px;
+  font-size: 13px !important;
+}
+
+.leftsec-menu {
+  background-color: #114511;
+  color: #fff;
+}
+.leftsec-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+.leftsec-menu li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.leftsec-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  padding: 5px 5px;
+}
+.leftsec-menu i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.leftsecbtn {
+  margin-top: 10px;
+}
+.leftsecbtn button {
+  background-color: #009500;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+}
+
+.rightsec {
+  padding-top: 10px;
+  margin-left: 17%;
+  padding-bottom: 50px;
+}
+
+.leftdashhead h1 {
+  color: #333;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.centerdashhead ul {
+  margin: 0px;
+  float: right;
+}
+.centerdashhead li {
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+  text-align: right;
+}
+.centerdashhead a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px !important;
+}
+
+.rightdashhead {
+  height: 35px;
+  padding-left: 60px;
+}
+.rightdashhead img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.profname {
+  font-size: 13px !important;
+  margin-left: 10px;
+}
+
+.secondsec {
+  margin-top: 10px;
+}
+
+.lsecbg {
+  background-color: #dbfadb;
+  padding: 15px;
+  border-radius: 10px;
+}
+.lsecbg h2 {
+  color: #114511;
+  font-size: 13px !important;
+}
+.lsecbg .para1 {
+  color: #114511;
+  font-size: 22px;
+  font-weight: 800;
+}
+.lsecbg .para2 {
+  color: #114511;
+  font-size: 13px !important;
+  margin-left: 10px;
+}
+
+.secondsecbtn {
+  margin-top: 10px;
+}
+.secondsecbtn button {
+  background-color: #009500;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+}
+.secondsecbtn button i {
+  margin-right: 10px;
+  font-size: 13px !important;
+}
+
+.menuicon1 button {
+  display: none;
+}
+
+.menuicon2 button {
+  display: none;
+}
+
+.secleftdashhead h1 {
+  color: #333;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.secleftdashhead .para3 {
+  color: #114511;
+  font-size: 13px !important;
+}
+
+.home-demo {
+  margin-top: 10px;
+}
+
+.img-fluid {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.img-fluid img {
+  max-width: 100%;
+  border-radius: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  padding-top: 20px;
+  border-radius: 15px;
+}
+
+.starsec ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  float: none;
+  margin-bottom: 10px;
+}
+.starsec li {
+  list-style: none;
+  margin-left: 10px;
+  display: inline-block;
+}
+.starsec .starsolid {
+  color: #009500;
+}
+.starsec .starreg {
+  color: #c6ffc6;
+}
+
+.card-body h4 {
+  color: #333;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+}
+.card-body .para3 {
+  color: #114511;
+  font-size: 13px !important;
+  text-align: center;
+}
+
+.btnleft, .btnright {
+  background-color: #009500;
+}
+
+.leftperfsec {
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #efefef;
+  border: 1px solid #efefef;
+  margin: 10px;
+  border-radius: 10px;
+}
+.leftperfsec h3 {
+  font-size: 30px;
+}
+
+.rightdashheadimg {
+  height: 35px;
+}
+.rightdashheadimg img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .rightdashhead {
+    padding-left: 10px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .leftdashhead h1 {
+    font-size: 18px;
+  }
+  .item {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .accordion-button {
+    font-size: 13px !important;
+  }
+  .submenu ul {
+    padding: 0px;
+  }
+  .secondsecbtn button {
+    font-size: 13px !important;
+  }
+  .item {
+    height: 280px;
+  }
+  .item h2 {
+    font-size: 15px;
+  }
+  .starsec li {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .img-fluid {
+    width: 50px;
+    height: 50px;
+  }
+  .img-fluid img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .rightsec {
+    margin-left: 25%;
+  }
+  .rightdashhead {
+    padding-left: 30px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .leftsec {
+    position: absolute;
+    left: -100%;
+  }
+  .menuicon1 button {
+    z-index: 3000;
+    font-size: 22px;
+    background-color: #114511;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    display: block;
+  }
+  .menuicon2 button {
+    z-index: 2000;
+    font-size: 22px;
+    background-color: #114511;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    display: block;
+  }
+  .rightsec {
+    margin-left: 0%;
+  }
+  .rightdashhead {
+    padding-left: 10px !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .rightdashhead {
+    text-align: right;
+  }
+}/*# sourceMappingURL=main.css.map */
